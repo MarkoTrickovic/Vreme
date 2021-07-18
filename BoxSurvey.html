@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>colls data</title>
+</head>
+<body>
+<form action="BoxSurvey.php" method="POST">
+      FIRST NAME: <input type="text" name="name1">
+      LAST NAME: <input type="text" name="name2">
+      AGE: <input type="text" name="age">
+     <br>
+     <br>
+      GRADE: <input type="text" name="grade">
+     <br>
+     <br>
+      How many siblings do you have?: <input type="text" name="siblings">
+     <br>
+     <br>
+      At what time do you go to bed?: <input type="time" name="sleeps"> 
+     <br>
+    <br>   
+      At what time do you wakeup?: <input type="time" name="wakes">
+     <br>
+     <br>
+      what is the approximate  time you spent on your homework per day?: <input type="time" name="homework">
+     <br>
+     <br>
+
+
+     what is the approximate  time you spent watching TV/DVD per day?: <input type="time" name="TV/DVD">
+     <br>
+     <br>
+     what is the approximate  time you spent using computer or games console per day?: <input type="time" name="comp/games">
+     <br>
+     <br>
+    what is the approximate  time you spent with family per day?: <input type="time" name="familytime">
+     <br>
+     <br>
+    what is the approximate  time you spent with friends per day?: <input type="time" name="friendstime">
+     <br>
+                      <p><b>hint click the clock icon to select time</b></p>
+     <br>
+     <br>
+      <input type="submit" name="">
+</form>
+
+<form>
+  <p>Name: <input type="text" name="fullname" /></p>
+  <p>Day of month you were born:
+     <select name="dayofmonth">
+       <script>
+         for ($i=1; $i<=31; $i++)
+         {
+           echo ("<option>" + $i + "</option>");
+         }
+       </script>
+     </select>
+</form>
+
+
+
+
+
+</body>
+</html> <!--End-->
